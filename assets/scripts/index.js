@@ -1,10 +1,11 @@
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
 
-let size = 20
-let color = 'black'
+const size = 20
+const color = 'black'
 let x
-let y 
+let y
+let isPressed
 
 canvas.addEventListener('mousedown', (e) => {
   isPressed = true
